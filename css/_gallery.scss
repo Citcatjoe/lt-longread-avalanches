@@ -1,0 +1,108 @@
+.infos
+{
+	@include breakpoint(lg) { 
+         padding-left: 30px !important;
+    }
+	
+	@include breakpoint(md) { 
+         padding-left: 15px !important;
+         margin-bottom: 2.5rem;
+
+         // p, .spacer-sm, .spacer-lg, button
+         // {
+         // 	display: none;
+         // }
+
+    }
+
+    @include breakpoint(xs) { 
+        font-size: 19px;
+        line-height: 26px;
+        letter-spacing: 0px;
+        margin-top: 0;
+    }
+
+}
+
+.box-full
+{
+	z-index: 10;
+
+	figure.figure-lg
+	{
+		 
+
+		figcaption
+		{
+			padding-right: 30px;
+			margin-bottom: -100%;
+
+			@include breakpoint(md) { 
+		         margin-bottom: 0;
+		    }
+
+		}
+	}
+
+	figure.figure-sm
+	{
+
+		overflow: auto;
+		img 
+		{
+			float: right;  
+
+			@include breakpoint(md) { 
+		         padding: 0 !important;
+		         margin-bottom: 20px;
+		    }
+		}
+
+
+
+		figcaption
+		{
+			float: right;
+			padding-right: 30px;
+			text-align: right;
+
+			@include breakpoint(md) { 
+		         padding: 0 !important;
+		         text-align: left;
+		    }
+			
+		}
+	}
+}
+
+.box-aside
+{
+	//position: absolute;
+	left: 0;
+	padding-left: 0;
+	padding-right: 30px;
+	z-index: 10;
+
+	@include breakpoint(md) { 
+         padding-right: 15px !important;
+    }
+
+	&.is-absolute //for infos
+	{
+		position: absolute;
+
+		@include breakpoint(md) { 
+	        position: static;
+	    }
+	}
+}
+
+.box-corridor
+{
+
+}
+
+.box-corridor-half
+{
+
+}

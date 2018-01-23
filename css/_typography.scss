@@ -1,0 +1,234 @@
+//=====================================================================//
+// FONTS
+//=====================================================================//
+$font1: 'adelle';
+//$font2: 'acta-display';
+$font2: 'proxima-nova';
+
+
+
+.f-font1 { font-family: $font1; }
+.f-font2 { font-family: $font2; }
+.f-font3 { font-family: 'Georgia'; font-style: italic; }
+
+.f-weight100 { font-weight: 100; } //adelle thin 
+.f-weight400 { font-weight: 400; } //adelle reg
+.f-weight600 { font-weight: 600; } //adelle semibold + Georgia
+//.f-weight500 { font-weight: 500; } //acta medium
+.f-weight700 { font-weight: 700; } //adelle bold
+.f-weight700i { font-weight: 700; font-style: italic; } //adelle bold italic
+
+.f-h1 { 
+    font-size: 72px; 
+    line-height: 66px; 
+
+    @include breakpoint(xs) { 
+        font-size: 38px; 
+        line-height: 40px; 
+        margin-top: 35px;
+    }
+} 
+.f-h2 { 
+    font-size: 21px; 
+    line-height: 24.5px; 
+    letter-spacing: 2px; 
+
+    @include breakpoint(xs) { 
+        font-size: 19px;
+        line-height: 26px;
+        letter-spacing: 0px;
+        margin-top: 0;
+    }
+} 
+.f-h3 { font-size: 40px; line-height: 40px; } 
+.f-h4 { 
+    font-size: 50px; 
+    line-height: 45px; 
+
+    @include breakpoint(xl) { 
+        font-size: 40px; 
+        line-height: 40px; 
+    }
+
+    @include breakpoint(lg) { 
+        font-size: 30px; 
+        line-height: 30px; 
+    }
+} 
+.f-h5 { 
+    font-size: 20px; 
+    line-height: 24.5px; 
+
+    @include breakpoint(lg) { 
+        font-size: 18px; 
+    }
+} 
+.f-h6 { font-size: 29px; } 
+.f-h7 { font-size: 16px; } 
+.f-aside { font-size: 16px; line-height: 23px !important; }
+.f-quote { font-size: 30px; line-height: 40px;}
+
+.f-flash { color: $flash-color; }
+.f-white { color: white; }
+.f-white-special { 
+    color: white; 
+
+     @include breakpoint(xs) { 
+        color: black;
+    }
+}
+
+.f-center { text-align: center; }
+
+.f-black { color: black; }
+.f-gray-dark { color: #666666 }
+.f-gray-medium { color: #b7b7b7 } 
+
+.f-aa { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.f-nomargin { margin-bottom: 0; }
+.f-inter { padding-top: 30px; }
+
+h1
+{
+    max-width: 725px;
+}
+
+h2
+{
+    max-width: 725px;
+}
+
+h3  
+{
+    
+}
+
+h4
+{
+    
+}
+
+h5
+{
+   
+}
+
+h6 
+{
+    
+}
+
+p 
+{
+    font-family: $font2;
+    color: black;
+    font-size: 21px;
+    line-height: 30px;
+    margin-bottom: 29px;
+    // -webkit-font-smoothing: antialiased; 
+    // -moz-osx-font-smoothing: grayscale;
+
+    b 
+    {
+        font-family: $font1;
+        font-weight: 600;
+    }
+}
+
+.content p 
+{
+    position: relative;
+    //width: 66.66666667%;
+    //margin-left: 33.33333333%;
+    padding-left: calc(33.33333333% + 15px);
+
+    @include breakpoint(md) { 
+        padding-left: 0;
+    }
+
+    @include breakpoint(xs) { 
+        font-size: 18px;
+        //font-weight: 500;
+    }
+
+    &:first-of-type:first-letter 
+    {
+        font-family: $font1; 
+        float:left;
+        font-size: 55px;
+        padding: 0.30em 0.10em 0 0;
+        font-weight: 600;
+
+        @include breakpoint(xs) { 
+            font-size: 55px;
+        }
+    }
+
+    a 
+    {
+        color: $flash-color;
+        border-bottom: 2px solid $flash-color;
+
+        &:hover, &:focus
+        {
+            text-decoration: none;
+        }
+    }
+}
+
+.prefooter p
+{
+    font-size: 19px;
+    line-height: 27px;
+}
+
+// .content .infos p
+// {
+//     padding-left: 0;
+//     //margin: 0 !important;
+// }
+
+// p:first-of-type:first-letter 
+// {
+//     font-family: $font1; 
+//     letter-spacing: 1px;
+//     float:left;
+//     font-size: 120px;
+//     padding: 0.35em 0.10em 0 0;
+//     font-weight: 300;
+//     color: lighten(black, 20%);
+
+//     @include breakpoint(xs) { 
+//         font-size: 80px;
+//     }
+// }
+
+a 
+{
+    
+}
+
+blockquote
+{
+    &:before 
+    {
+        color: #ccc;
+        content: open-quote;
+        font-size: 60px;
+        line-height: 0.1em;
+        margin-right: 0;
+        vertical-align: -5px;
+        color: red;        
+    }
+
+    &:after 
+    {
+        color: #ccc;
+        content: close-quote;
+        font-size: 60px;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -5px;
+        color: red;
+    }
+}

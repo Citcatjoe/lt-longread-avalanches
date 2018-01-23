@@ -1,0 +1,801 @@
+{% use '_blocks.html.twig' %}
+
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		{{ block('head_brand') }}
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/loader.css" />
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css" />
+
+		<script src="https://use.typekit.net/pve7eut.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+		<script>
+			document.documentElement.className = 'js';
+		</script>
+		
+	</head>
+
+	<body style="padding-top: {{ navBarOffset }};">
+		{{ block('bar_brand') }}
+		{# <div class="overlay">
+			<img class="logo-brand" src="img/logo-lt-blanc.svg" alt="">
+			<div class="spinner">
+				<div class="double-bounce1"></div>
+				<div class="double-bounce2"></div>
+			</div>
+		</div>  #}
+		
+		<!-- <div class="progress"></div> -->
+
+		<!-- <nav>
+			<ul>
+			</ul>
+		</nav> -->
+
+		<header>
+			<div class="header--bg">
+				<div class="header-gradient"></div>
+				<div class="header--bg--img"></div>
+				<div class="header--bg--vid">
+					<video autoplay loop muted>
+						<source src="https://player.vimeo.com/external/193513886.hd.mp4?s=3225bb87ffa1f04e7062797531625ee4f7c022db&amp;profile_id=119"
+						 type="video/mp4"> Votre navigateur ne supporte pas les vidéos HTML%.
+					</video>
+				</div>
+			</div>
+			
+			<div class="header--title"> 
+				<div class="container">
+					<h1 class="f-font1 f-weight400 f-h1 f-white-special">L’avalanche de leur vie</h1>
+					<div class="spacer-xs"></div>
+					<h2 class="f-font1 f-h2 f-white-special f-aa">ls sont tous coutumiers des pentes enneigées, mais cela ne les a pas empêchés de se faire piéger. Quatre victimes racontent leur expérience. Ce jour où la montagne, un instant, a trahi leur confiance.</h2>
+				</div>
+			</div>
+			<!-- <div class="header--caption">
+				<div class="container f-font1 f-gray-medium f-aside f-aa">
+					Photographies: Eddy Mottaz
+				</div>
+			</div> -->
+		</header>
+
+		<section>
+			<div class="container">
+				<div class="row">
+
+					<div class="box-aside infos is-absolute col-md-4">
+						<p class="f-font1 f-aside f-gray-dark f-nomargin">
+							<span class="f-font1 f-weight600">Caroline Christinaz et Servan Peca</span> <span class="f-aa">, journalistes pour <i>Le Temps</i></span>
+						</p>
+						<div class="spacer-sm"></div>
+						<a href="mailto:caroline.christinaz@letemps.ch,servan.peca@letemps.ch" target="_blank"><button type="button" class="btn btn-default btn-lg f-font3 f-weight600 f-aa">Leur écrire</button></a>
+						<div class="spacer-sm"></div>
+						<p class="f-font1 f-aside f-gray-medium f-aa f-nomargin">Publié le 27 avril 2018<br>10 minutes de lecture</p>
+						<div class="spacer-lg"></div>
+						<p class="f-font1 f-weight600 f-aside f-black f-nomargin">Partager cet article</p>
+						<div class="spacer-xs"></div>
+						<div class="sharebox">
+							<a href="https://www.facebook.com/sharer.php?u={{ app.url }}&display=popup&ref=plugin&src=share_button" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+							<a href="https://twitter.com/intent/tweet?text={{ twitterDescription ~ ' ' ~ app.url ~ ' '|url_encode }}&via={{ brand }}" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+							<a href="https://www.linkedin.com/shareArticle?url={{ app.url }}&mini=true&title={{ title|url_encode }}&summary={{ description|url_encode }}&source={{ 'Le Temps'|url_encode }}" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+						</div>
+					</div>
+
+					<div class="content col-md-12">
+						
+						<p>
+							Il a fallu plusieurs mois à Cachou pour pouvoir à nouveau regarder les montagnes sans ressentir un profond dégoût. Pour elle, plus que pour bien d’autres, cet hiver est particulier. Le danger d’avalanche accru exacerbe sa méfiance. «Avant mon avalanche, j’aurais évité les randonnées par danger 5. Maintenant, je ne peux simplement pas m’imaginer aller dans un fond de vallée.»
+						</p>
+						<p>
+							Pour cette jeune femme, le choc post-traumatique a été plus difficile à gérer que l’avalanche en elle-même. «Je ne regardais	pas la réalité en face. Je n’avais plus de contact avec mes enfants. Je pleurais tous les soirs.» C’était il y a moins d’un	an et elle ne s’en n’est pas encore entièrement remise.
+						</p>
+						<!-- PICTURE NORMAL -->
+						<!-- <div class="box-full col-md-12">
+							<div class="row">
+								<div class="spacer-sm"></div>
+								<figure class="figure-sm">
+									<img src="img/article/champ.jpg" alt="" class="col-md-8">
+									<figcaption class="f-font1 f-aside f-gray-medium f-aa col-md-4">Ma belle légende en rapport avec ce slider d'oliviers ici.</figcaption>
+								</figure>
+								<div class="spacer-xl"></div>
+							</div>
+						</div> -->
+						<p>
+							Impossible à oublier. Si les cicatrices laissées par les avalanches sur le manteau neigeux sont éphémères, elles demeurent indélébiles dans l’esprit de leurs victimes. Comme si les secondes avaient, à cet instant, pris l’apparence d’heures, le temps leur a soudain paru plus long. Tous se souviennent miette par miette de l’avalanche qui a failli emporter leur vie. Ces 8 décembre, 22 janvier, 1er et 22 avril sont restés ancrés dans leur mémoire.
+						</p>
+
+						<p class="f-h6 f-font1 f-inter">«La montagne s’est détachée»</p>
+
+						<p>
+							C’était le premier jour de poudreuse de la saison. Il avait neigé la veille et le bulletin indiquait un danger de niveau	3. Inconditionnelle de la godille, Diane dévale les pentes enneigées depuis des années. Ce qu’elle aime, c’est tracer des virages dans la neige poudreuse, bien parallèles à ceux du guide. Sur les photos, c’est esthétique. Ce jour-là, comme à l’accoutumée, à peine arrêtée à côté du professeur de ski, elle dégaine son appareil et se retourne vers la pente qu’elle vient de tracer
+							pour la photographier. «C’est à cet instant que j’ai vu la montagne se détacher.»
+						</p>
+
+						<p>
+							A près de 3000 mètres d’altitude, les cristaux de neige étincelaient dans l’air vif. Ce jour-là, différents éléments avaient rendu Diane craintive. «Normalement, pour faire du hors-piste, j’ai toujours recours à un guide. Mais cette fois, nous avions pris un professeur de ski», explique-t-elle. Le moniteur a emmené ses clients à Back Mont-Fort, un hors-piste prisé des 4
+							Vallées. «Je n’avais pas envie d’y aller, car on m’avait toujours dit qu’il ne fallait pas y descendre juste après des chutes de neige.» Mais la motivation du groupe a été plus forte que ses appréhensions. Au sommet du télécabine, elle a tourné le dos au Grand-Combin et plongé derrière ses amis sous la Rosablanche, pour suivre l’itinéraire normal qui sinue entre les glaciers.
+						</p>
+
+						<p class="f-h6 f-font1 f-inter">Skier léger, ne pas trop appuyer</p>
+
+						<p>
+							C’est dans la même région que Christian a vu le sol se dérober sous ses skis. Il était 13h, le 1er avril. Une neige fraîche et étonnamment poudreuse pour la saison avait placé le Valais en danger 3. Sur l’ultime pente avant le barrage de Cleuson,	le trentenaire est le dernier à descendre. Il jette son dévolu sur un itinéraire vierge, à quelques mètres des traces de ses camarades. Dans sa tête, il s'encourage: skier léger, ne pas trop appuyer dans les virages, être fluide.
+						</p>
+
+						<p>
+							Dès qu’il franchit la rupture de pente, il aperçoit une fissure déchirer le manteau neigeux. Pas un bruit, juste un éclair.	«C’est une sensation particulière. Tout à coup, toute la neige ondulait autour de moi. Comme si j’avais brisé un miroir. D’abord, ça se craquelle de côté et les fractures donnent l’impression de se rapprocher de toi. Tout devient fluide et se	met en mouvement.» Un instant, il se surprend à admirer la beauté de la scène dont il fait partie. L’avalanche prenant de
+							l’envergure, le ravissement disparaît. Et son combat commence.
+						</p>
+
+						<p>
+							Il tente d’appliquer certains préceptes de skieurs avertis. Tirer une ligne droite et se réfugier en lieu sûr. «J’ai presque	réussi, j’y croyais, vraiment. Mais l’avalanche a emporté mes skis», se souvient-il. Et une fois pris au piège, nager dans la coulée s’avère aussi impossible. En fait, Christian est totalement impuissant. La montagne n’y porte aucune attention, mais le skieur est à sa merci.
+						</p>
+
+						<p class="f-h6 f-font1 f-inter">«Comme une bagarre»</p>
+
+						<p>
+							«C’est comme une bagarre. Lorsque tu es couché et qu’un inconnu t’assène des coups. Tu es incapable de te relever, les coups s’abattent sur toi et tu dois encaisser. C’est très physique. Et mentalement, il faut tenir.» Dans sa chute, il garde les
+							yeux ouverts. Dilatées, ses pupilles sont assaillies de flashs, successivement blanc et bleu.
+						</p>
+
+						<p>
+							«Avec le bleu, je prenais un coup. Le blanc était synonyme d’une courte trêve.» Au-delà de la douleur, c’est le manque d’air qui l’angoisse. Dès sa première respiration, de la neige légère s’introduit dans ses poumons. Il met son bras en écharpe autours de sa bouche. «C’est tout ce que j’ai pu faire.»
+						</p>
+
+						<p>
+							Quand la plaque se détache sous ses skis, Hubert a le réflexe de tirer sur la poignée de son sac airbag. Ce jour de janvier,	le danger venait de passer du 3 au 2. Malgré ses quinze années d’expérience et ses précautions, Hubert est capturé par une	plaque à vent dissimulée sous le manteau neigeux. Sous le col des Pauvres, dans les Alpes vaudoises, il dévale la pente sur 1000 mètres. «Si je n’avais pas eu d’airbag, j’aurais sans doute été enseveli sous 2 mètres de neige», témoigne-t-il.
+						</p>
+
+						<p>
+							L’homme a eu la vie sauve, mais l’avalanche lui a coûté une jambe. «J’ai senti mon corps être étiré, mais je ne me souviens pas de douleur particulière liée à la perte d’un membre», livre ce chef de course de club alpin et membre d’une colonne de	secours en montagne.
+						</p>
+
+						<p class="f-h6 f-font1 f-inter">Une randonnée cher payée</p>
+
+						<p>
+							Hubert a toujours été prudent. Jamais, dit-il, il ne se permettait d’aborder des pentes de plus de 30° avec un groupe. Mais seul, il s’autorisait quelques écarts. «C’est ridicule, comme si ma vie valait moins que celle des autres», ressasse-t-il. Cette randonnée est cher payée, mais il veut en tirer un message préventif. «L’airbag ne suffit pas à se tirer d’affaire. Et désormais, alors que j’ai repris le ski, même en danger 2, je rechigne à m’approcher des pentes en hors-piste».
+						</p>
+
+						<p>
+							A les entendre, arpenter la montagne peut s’apparenter à une partie de roulette russe. Malgré l’incertitude, toutes les victimes tentent de trouver une explication à leur sort. «Notre avalanche s’est déclenchée sur une moraine, un terrain qui, selon les montagnards, est plus propice au phénomène», souligne Diane. «Il y avait trop de neige fraîche, une rupture de pente et le tout sur une face nord», suppose Christian. Aucun n’ose évoquer la malchance.
+						</p>
+
+						<p>
+							Pour Cachou, toutefois, la cause de son avalanche est demeurée obscure, jusqu’à son retour à la cabane. Cette journée d’avril 2017, elle ne distinguait pas la terre du ciel, tant le jour était blanc. Alors qu’elle montait en peaux de phoque, derrière un guide de montagne, à Valgrisenche, en Italie, le danger est venu des airs. «La corniche qui surmontait la falaise que	nous étions en train de longer s’est abattue sur nous», raconte la skieuse. Le choc est inattendu. Il renverse une partie
+							du groupe et l’emporte dans la neige.
+						</p>
+
+						<p>
+							Elle avait déjà vécu une avalanche en 2004, mais elle en gardait presque un sentiment agréable. «C’était comme sur un tapis	volant et j’avais pu m’en extraire seule», se souvient cette jeune femme. Mais treize ans plus tard, sans doute parce qu’elle est alors jeune maman, elle sent chaque seconde passer, une à une, comme une torture.
+						</p>
+
+						<p>
+							La tête sous la neige, elle ne voit que du noir. «J’ai pensé que tout était fini», raconte-t-elle. Quand le noir vire au gris, c’est pour elle un signe d’espoir. L’avalanche ralentit: «J’ai sorti une main et par chance je suis parvenue à dégager ma bouche. Je me suis mise à hurler mais je n’ai rien entendu car la neige comprimait ma tête.»
+						</p>
+
+						<p class="f-h6 f-font1 f-inter">Emprisonnée dans la neige</p>
+
+						<p>
+							Aussitôt, la neige se pétrifie autour d’elle, lui rendant tout mouvement impossible. «C’est à cet instant que l’angoisse est devenue plus forte encore, car bien que tout soit arrêté, je craignais qu’une nouvelle avalanche ne s’abatte sur nous.» Ça n’a pas été le cas, mais Cachou est emprisonnée dans la neige.
+						</p>
+
+						<p>
+							Ses camarades parviennent à l’en extraire. Physiquement, elle s’en sort avec une cheville cassée. Mentalement, c’est une fracture ouverte. Elle a vu son amie retirer de sa bouche une boule de neige de la taille d’un œuf. Elle a cru que jamais plus elle ne verrait ses enfants et son mari. A ses yeux, la montagne, cette amie de longue date, lui montrait un autre visage.	Celui-ci était funeste.
+						</p>
+
+						<p>
+							Diane aussi a découvert la face pernicieuse de la montagne. Une fois l’avalanche immobilisée, son amie manque à l’appel. «Elle a été retrouvée sous plusieurs mètres de neige. Ce sont sans doute les dragonnes de ses bâtons qui l’ont tirée vers le bas. Elle est décédée quatre jours plus tard à l’hôpital.»
+						</p>
+
+						<p>
+							Malgré les années écoulées, au fond d’elle, une rancœur la taraude encore. «Pendant les recherches, d’autres skieurs se	sont approchés afin de nous venir en aide. C’était plein de bonnes intentions, mais ils n’avaient pas éteint leur ARVA (appareil de recherche de victimes d’avalanche) et, dans la confusion, leur venue a brouillé les pistes.» La victime a été retrouvée après quinze minutes. Il en a fallu quinze autres pour que l’hélicoptère arrive.
+						</p>
+
+						<p class="f-h6 f-font1 f-inter">Y retourner</p>
+
+						<p>
+							Leur blessure est profonde. Les victimes ont été trahies par la montagne, mais elles ne sont pas rancunières. Elles sont	moins dupes, mais elle lui ont pardonné. Impossible d’y renoncer entièrement.
+						</p>
+
+						<p>
+							Désormais, chaque victime, à sa manière, aborde la montagne d’une façon différente. Hubert n’a plus envie. Christian est plus prudent. Diane ne sort des pistes qu’accompagnée de guides de confiance, car eux seuls parviennent à calmer ses peurs. Quant à Cachou, elle sent de nouveau une excitation naître au fond d’elle lorsqu’il neige. Elle envisage de bientôt y retourner. «Une partie de moi est restée là haut», glisse-t-elle toutefois, comme pour signifier que la montagne, elle ne l’a jamais
+							vraiment quittée.
+						</p>
+						
+							<!-- PICTURE BIG -->
+							<!-- <div class="box-full col-md-12">
+								<div class="row">
+									<div class="spacer-sm"></div>
+									<figure class="figure-lg">
+										<img src="img/article/accueil-placeholder.jpg" alt="" class="img-responsive"/>
+											<div class="row">
+												<figcaption class="f-font1 f-aside f-gray-medium f-aa col-md-4">
+													<div class="spacer-xl"></div>
+													La Neuchâteloise Julie Beck est une nomade numérique 
+													qui travaille à distance pour les grandes marques 
+													horlogères
+												</figcaption>
+											</div>
+									</figure>
+									<div class="spacer-xl"></div>
+								</div>
+							</div> -->
+
+						<!-- PICTURE NORMAL -->
+						<!-- <div class="box-full col-md-12">
+							<div class="row">
+								<div class="spacer-sm"></div>
+								<figure class="figure-sm">
+									<img src="img/article/accueil-placeholder.jpg" alt="" class="col-md-8">
+									<figcaption class="f-font1 f-aside f-gray-medium f-aa col-md-4">Ma belle légende en rapport avec ce slider d'oliviers ici.</figcaption>
+								</figure>
+								<div class="spacer-xl"></div>
+							</div>
+						</div> -->
+
+						<!-- NEWSLETTER -->
+						<!-- <div class="box-corridor col-md-8 col-md-offset-4">
+							<div class="row">
+								<div class="spacer-sm"></div>
+								<div class="newsletter col-sm-10 col-sm-offset-1 ">
+									<h6 class="f-font1 f-h6 f-black f-aa">
+										Nos grands formats vous intéressent ?<br>Inscrivez-vous et n’en ratez plus aucun.
+									</h6>
+									<div class="spacer-xs"></div>
+									<div class="input-group form-button-fix">
+										<input type="text" class="form-control input-lg f-font1 f-aa" placeholder="Votre email">
+										<span class="input-group-btn">
+											<button class="btn btn-default btn-lg f-font3 f-weight600 f-aa" type="button">S'inscrire</button>
+										</span>
+									</div>
+								</div>
+								<div class="spacer-lg"></div>
+							</div>
+						</div> -->
+						
+						<!-- VIDEO SMALL -->
+						<div class="box-corridor col-md-8 col-md-offset-4">
+							<div class="row">
+								<div class="row">
+									<div class="spacer-md"></div>
+									<div class="video-wrapper col-xs-11 col-xs-offset-1">
+										<div class="video-wrapper-flex">
+											<iframe src="https://player.vimeo.com/video/252306951?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+										</div>
+										<div class="spacer-lg"></div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						
+						<!-- <div class="box-corridor col-md-8 col-md-offset-4">
+							<div class="row">
+								<div class="spacer-sm"></div>
+								<div class="slider owl-carousel owl-theme col-sm-12">
+									<img src="img/placeholder.jpg" alt="">
+									<img src="img/placeholder.jpg" alt="">
+									<img src="img/placeholder.jpg" alt="">
+									<img src="img/placeholder.jpg" alt="">
+									<img src="img/placeholder.jpg" alt="">
+								</div> 
+								<div class="newsletter col-sm-10 col-sm-offset-1 ">
+									<h6 class="f-font1 f-h6 f-black f-aa">
+										Nos grands formats vous intéressent ?<br>Inscrivez-vous et n’en ratez plus aucun.
+									</h6>
+									<div class="spacer-xs"></div>
+									<div class="input-group form-button-fix">
+										<input type="text" class="form-control input-lg f-font1 f-aa" placeholder="Votre email">
+										<span class="input-group-btn">
+											<button class="btn btn-default btn-lg f-font3 f-weight600 f-aa" type="button">S'inscrire</button>
+										</span>
+									</div>
+								</div>
+								<div class="spacer-lg"></div>
+							</div>
+						</div> -->
+
+						
+						
+
+						<p class="f-h6 f-font1 f-inter">Un mal invisible</p>
+
+						<div class="box-aside col-md-4" style="color:red; display: inline; overflow: auto;">
+							<div class="slider owl-carousel owl-theme col-sm-12">
+								<img src="img/article/bd1.jpg" alt="">
+								<img src="img/article/bd17.jpg" alt="">
+								<img src="img/article/bd18.jpg" alt="">
+								<img src="img/article/bd19.jpg" alt="">
+								<img src="img/article/bd20.jpg" alt="">
+								<img src="img/article/bd21.jpg" alt="">
+								<img src="img/article/bd22.jpg" alt="">
+								<img src="img/article/bd23.jpg" alt="">
+								<img src="img/article/bd24.jpg" alt="">
+							</div>
+						</div>
+
+					
+
+						<!-- PICTURE BIG -->
+						<!-- <div class="box-full col-md-12">
+							<div class="row">
+								<div class="spacer-sm"></div>
+								<figure class="figure-lg">
+									<img src="img/article/map.jpg" alt="" class="img-responsive"/>
+										<div class="row">
+											<figcaption class="f-font1 f-aside f-gray-medium f-aa col-md-4">
+												<div class="spacer-xl"></div>
+												Le Salento (Salentu en dialecte) constitue l'extrémité sud-est de la région des Pouilles en Italie. Décrit comme étant le « talon de la botte italienne », il englobe la totalité de la province de Lecce.
+											</figcaption>
+										</div>
+								</figure>
+								<div class="spacer-xl"></div>
+							</div>
+						</div> -->
+
+						
+
+					
+
+						<!-- <div class="box-corridor-half col-md-8 col-md-offset-4">
+							<div class="row">
+								<div class="spacer-lg"></div>
+								<div class="quote f-font1 f-quote f-weight100 f-aa col-xs-11 col-xs-offset-1">
+									L'arrivée de la Xylella sur le Vieux Continent ne présage rien de bon
+								</div>
+								<div class="spacer-xl"></div>
+							</div>
+						</div> -->
+
+						
+
+						<!-- PICTURE BIG -->
+						<!-- <div class="box-full col-md-12">
+							<div class="row">
+								<div class="spacer-sm"></div>
+								<figure class="figure-lg">
+									<img src="img/article/tooltip.jpg" alt="" class="img-responsive"/>
+										<div class="row">
+											<figcaption class="f-font1 f-aside f-gray-medium f-aa col-md-4">
+												<div class="spacer-xl"></div>
+												Le Salento (Salentu en dialecte) constitue l'extrémité sud-est de la région des Pouilles en Italie. Décrit comme étant le « talon de la botte italienne », il englobe la totalité de la province de Lecce.
+											</figcaption>
+										</div>
+								</figure>
+								<div class="spacer-xl"></div>
+							</div>
+						</div> -->
+
+					
+
+						<div class="encart">
+							<div class="clearfix">
+								<!-- <div class="box-aside col-md-3">
+									<figure>
+										<img src="img/article/interview1.png">
+										<div class="spacer-lg"></div>
+										<figcaption class="f-font1 f-aside f-gray-medium f-aa"><span class="f-weight700">Giuseppe Siletti</span>Commissaire extraordinaire en charge de la lutte contre l'épidémie</figcaption>
+									</figure>
+								</div> -->
+								<div class="col-md-9 pull-right" style="padding: 0;">
+									<div class="encart-2-columns">
+										<span class="f-h6 f-font1 f-weight700">Avant de sortir, s'informer</span>
+										<div class="spacer-sm"></div>
+										<span class="f-font2">Il existe aujourd’hui, et de plus en plus, de nombreuses sources d’information utiles pour se préparer au mieux au ski hors
+											piste ou, plus généralement, aux sorties en montagne. Sans prétention d’exhaustivité,
+											<i>Le Temps</i> en a sélectionné quelques-unes.</span>
+										
+										<div class="spacer-sm"></div>
+										<span class="f-font2">D’abord, le site internet de l’Institut pour l’étude de la neige et des avalanches (SLF) à Davos, dont l’interface s’est
+											beaucoup améliorée, depuis cet hiver. Plus utile encore, son application Whiterisk, qui regroupe peu ou prou les mêmes informations
+											que son site, mais qui s’adresse davantage au grand public.</span>
+										
+										<div class="spacer-sm"></div>
+										<span class="f-font2">Citons également la brochure «Attention avalanches», disponible auprès de ses éditeurs (le Club Alpin Suisse, le SLF, l’Association
+											suisse des guides de montagne, etc.). Cette dernière permet d’en apprendre un peu plus sur l’évolution de la structure neigeuse
+											en fonction de la météo et sur les conditions propices au départ des avalanches.</span>
+										
+										<div class="spacer-sm"></div>
+										<span class="f-font2">Quelques ouvrages plus conséquents sont également à recommander:
+											<i>Estimer et limiter le risque d’avalanche</i>, du nivologue fondateur de Meteorisk Robert Bolognesi,
+											<i>3x3 Avalanches</i>, par le guide de montagne Werner Munter ou encore Avalanches,
+											<i>comment réduire le risque</i>, par Olivier Moret et Philippe Descamps, anciens rédacteurs en chef de
+											<i>Montagnes Magazine</i> et anciens directeurs de la Fondation Petzl.</span>
+										
+										<div class="spacer-sm"></div>
+										<span class="f-font2">Enfin, pour affiner sa pratique, il existe une multitude de cours avalanche. Leurs coûts: 100 à 200 francs pour une journée
+											de formation à l’évaluation du danger, à l’utilisation du matériel et aux réflexes à adopter en cas d’avalanche.</span>
+									</div>
+										
+									
+									
+									
+								</div>
+							</div>
+							<div class="encart-chart">
+								<div class="col-md-9 encart-chart-figure">
+									<span class="f-h5 f-font1 f-weight700 f-center">Accidents mortels par degré de danger</span>
+									<div class="spacer-lg"></div>
+									<canvas id="myChart"></canvas>
+								</div>
+								<div class="box-aside col-md-3 encart-chart-caption">
+									<figure>
+										<!-- <img src=""> -->
+										<!-- <div class="spacer-lg"></div> -->
+										<figcaption class="f-font1 f-aside f-gray-medium f-aa">Les normales montrent que la plupart des accidents mortels se produisent avec le degré de danger marqué 3</figcaption>
+									</figure>
+								</div>
+								
+							</div>
+						</div>
+
+						
+						<!-- <div class="box-corridor-half col-md-8 col-md-offset-4">
+							<div class="row">
+								<div class="spacer-lg"></div>
+								<div class="quote f-font1 f-quote f-weight100 f-aa col-xs-11 col-xs-offset-1">
+									Ces arbres, c’est la plus belle chose jamais sortie de cette terre rouge
+								</div>
+								<div class="spacer-xl"></div>
+							</div>
+						</div> -->
+
+						
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="prefooter">
+			<div class="container">
+
+				<div class="row">
+					<h3 class="text-center f-font1 f-h3 f-weight100 f-aa">Nos grands formats</h3>
+					<div class="spacer-xl"></div>
+					<div class="col-md-3 col-sm-6">
+						<main>
+							<a href="https://labs.letemps.ch/interactive/2016/longread-fioul-lourd/" target="_blank" class="tilter tilter--2">
+								<figure class="tilter__figure">
+									<img class="tilter__image" src="img/article-card-fioul-lourd.jpg" alt="img03" />
+									<div class="tilter__deco tilter__deco--shine"><div></div></div>
+									<div class="tilter__deco tilter__deco--overlay"></div>
+									<figcaption class="tilter__caption">
+										<h4 class="tilter__title f-font1 f-h3 f-weight700 f-aa">Fioul&nbsp;lourd</h4>
+										<p class="tilter__description">Le sang impur de la globalisation</p>
+									</figcaption>
+									<svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
+										<path d="M20.5,20.5h260v375h-260V20.5z" />
+									</svg>
+								</figure>
+							</a>
+						</main>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<main>
+							<a href="https://labs.letemps.ch/interactive/2016/shenzhen/" target="_blank" class="tilter tilter--2">
+								<figure class="tilter__figure">
+									<img class="tilter__image" src="img/article-card-shenzen.jpg" alt="img03" />
+									<div class="tilter__deco tilter__deco--shine"><div></div></div>
+									<div class="tilter__deco tilter__deco--overlay"></div>
+									<figcaption class="tilter__caption">
+										<h4 class="tilter__title f-font1 f-h3 f-weight700 f-aa">Shenzhen</h4>
+										<p class="tilter__description">De la fumée des usines aux ateliers d'artistes</p>
+									</figcaption>
+									<svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
+										<path d="M20.5,20.5h260v375h-260V20.5z" />
+									</svg>
+								</figure>
+							</a>
+						</main>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<main>
+							<a href="http://labs.hebdo.ch/interactive/2016/longread-horlogerie-japonaise/" target="_blank" class="tilter tilter--2">
+								<figure class="tilter__figure">
+									<img class="tilter__image" src="img/article-card-horlogerie-japonaise.jpg" alt="img03" />
+									<div class="tilter__deco tilter__deco--shine"><div></div></div>
+									<div class="tilter__deco tilter__deco--overlay"></div>
+									<figcaption class="tilter__caption">
+										<h4 class="tilter__title f-font1 f-h3 f-weight700 f-aa">Horlogerie japonaise</h4>
+										<p class="tilter__description">A la conquête du monde</p>
+									</figcaption>
+									<svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
+										<path d="M20.5,20.5h260v375h-260V20.5z" />
+									</svg>
+								</figure>
+							</a>
+						</main>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<main>
+							<a href="https://labs.letemps.ch/interactive/2016/tchernobyl-30-ans/" target="_blank" class="tilter tilter--2">
+								<figure class="tilter__figure">
+									<img class="tilter__image" src="img/article-card-tcherno-30-ans.jpg" alt="img03" />
+									<div class="tilter__deco tilter__deco--shine"><div></div></div>
+									<div class="tilter__deco tilter__deco--overlay"></div>
+									<figcaption class="tilter__caption">
+										<h4 class="tilter__title f-font1 f-h3 f-weight700 f-aa">Voyage au cœur de la zone</h4>
+										<p class="tilter__description">Avec les exilés installés à Tchernobyl</p>
+										<!-- <p class="tilter__description">Comment Adula, le projet de parc national, agite le Tessin et les Grisons</p> -->
+									</figcaption>
+									<svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
+										<path d="M20.5,20.5h260v375h-260V20.5z" />
+									</svg>
+								</figure>
+							</a>
+						</main>
+					</div>
+				</div>
+
+				<!-- <div class="row">
+					<h3 class="text-center f-font1 f-h3 f-weight100 f-aa">Nos grands formats</h3>
+					<div class="spacer-xl"></div>
+					<div class="col-md-3 article-card">
+						<div>
+							<a href="" target="blank">
+								<figure>
+									<img src="img/article-card-fioul-lourd.jpg" alt="" class="img-responsive"/>
+								</figure>
+								<h5 class="f-font1 f-h5 f-flash f-weight600">Fioul lourd, le sang impur de la globalisation</h5>
+							</a>
+						</div>
+						<h6 class="f-font1 f-h6">Par <span class="f-weight700i">Sylvain Besson</span>&nbsp;&nbsp;<a href=""><i class="fa fa-envelope f-flash"></i></a></h6>
+						<p class="f-gray-dark">Polluant et peu contrôlé, le pétrole que brûlent les gros navires marchands est dans le viseur des autorités.</p>
+						<h6 class="f-font1 f-h6 f-weight700"><a href="" target="blank" class="f-flash">Voir tout les article de Sylvain</a></h6>
+					</div>
+					<div class="col-md-3">
+						<figure>
+							<img src="img/article/accueil-placeholder.jpg" alt="" class="img-responsive"/>
+						</figure>
+						<h5 class="f-font1 f-h5 f-flash f-weight600">Shenzhen, de la fumée des usines aux ateliers d'artistes</h5>
+						<h6 class="f-font1 f-h6">Par <span class="f-weight700i">Boris Mabillard</span>&nbsp;&nbsp;<i class="fa fa-envelope f-flash"></i></h6>
+						<p class="f-gray-dark">Exploration du sexe sous toutes ses formes et expressions, à travers toutes ses émotions.</p>
+					</div>
+					<div class="col-md-3">
+						<figure>
+							<img src="img/article/accueil-placeholder.jpg" alt="" class="img-responsive"/>
+						</figure>
+						<h5 class="f-font1 f-h5 f-flash f-weight600">Shenzhen, de la fumée des usines aux ateliers d'artistes</h5>
+						<h6 class="f-font1 f-h6">Par <span class="f-weight700i">Boris Mabillard</span>&nbsp;&nbsp;<i class="fa fa-envelope f-flash"></i></h6>
+						<p class="f-gray-dark">Exploration du sexe sous toutes ses formes et expressions, à travers toutes ses émotions.</p>
+					</div>
+					<div class="col-md-3">	
+						<figure>
+							<img src="img/article/accueil-placeholder.jpg" alt="" class="img-responsive"/>
+						</figure>
+						<h5 class="f-font1 f-h5 f-flash f-weight600">Shenzhen, de la fumée des usines aux ateliers d'artistes</h5>
+						<h6 class="f-font1 f-h6">Par <span class="f-weight700i">Boris Mabillard</span>&nbsp;&nbsp;<i class="fa fa-envelope f-flash"></i></h6>
+						<p class="f-gray-dark">Exploration du sexe sous toutes ses formes et expressions, à travers toutes ses émotions.</p>
+					</div>
+				</div> -->
+
+			</div>
+		</section>
+
+		<footer class="f-font1 f-h5 f-white f-weight400 f-aa">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<ul class="footer-menu">
+							<a href="https://www.letemps.ch" target="_blank"><img src="img/logo-lt-blanc.svg" alt="" class="footer-logo"></a>
+							<li>&nbsp;</li>
+							<li>&nbsp;</li>
+							<li><a href="https://www.letemps.ch/a-propos" target="blank">À propos</a></li>
+							<li><a href="https://www.letemps.ch/faq" target="blank">FAQ</a></li>
+							<li><a href="https://www.letemps.ch/contact" target="blank">Contacts</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<ul class="footer-menu">
+							<li><a href="http://www.admeira.ch/fr/brands/digital/letemps-ch" target="blank">Publicité</a></li>
+							<li><a href="http://www.letempsarchives.ch/" target="blank">Archives</a></li>
+							<li><a href="https://www.letemps.ch/abonnes/services" target="blank">Services</a></li>
+							<li><a href="https://www.letemps.ch/rss" target="blank">RSS</a></li>
+							<li><a href="https://www.letemps.ch/" target="blank">© 2017 Le Temps SA</a></li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<!-- <div class="input-group form-button-fix">
+							<input type="text" class="form-control input-lg f-font1 f-aa" placeholder="Votre email">
+							<span class="input-group-btn">
+								<button class="btn btn-default btn-lg f-font3 f-weight600 f-aa" type="button">S'inscrire</button>
+							</span>
+						</div>
+						<div class="spacer-md"></div>
+						<div class="list-inline input-group">
+							<ul>
+								<li>
+									<input type="checkbox" id="c1" name="quotidien" aria-label="...">
+							        <label for="c1" class="f-flash"><span></span>Quotidien</label>
+								</li>
+								<li>
+									<input type="checkbox" id="c2" name="quotidien" aria-label="...">
+							        <label for="c2" class="f-flash"><span></span>Hebdomadaire</label>
+								</li>
+								<li>
+									<input type="checkbox" id="c3" name="quotidien" aria-label="...">
+							        <label for="c3" class="f-flash"><span></span>Un jour, une idée</label>
+								</li>
+							</ul>
+							<div class="spacer-xl"></div>	
+							<div class="spacer-md"></div>	
+					    </div> -->
+
+
+						<div id="mc_embed_signup">
+						    <form action="//letemps.us5.list-manage.com/subscribe/post?u=935318f4cb8cfdc02fc8eaae2&amp;id=56c41a402e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+							      <div id="mc_embed_signup_scroll">
+							      <div id="mce-responses" class="clear">
+							        <div class="response" id="mce-error-response" style="display:none"></div>
+							        <div class="response" id="mce-success-response" style="display:none"></div>
+							      </div>
+							      <div class="input-group mc-field-group">
+							        <label class="sr-only" for="mce-EMAIL">Votre adresse email</label>
+							        <input type="email" name="EMAIL" class="form-control required email input-lg" id="mce-EMAIL" placeholder="Votre adresse email">
+							        <div style="position: absolute; left: -5000px;"><input type="text" name="b_935318f4cb8cfdc02fc8eaae2_56c41a402e" tabindex="-1" value=""></div>
+							        <span class="input-group-btn">
+							          <button class="btn btn-default btn-lg f-font3 f-weight600 f-aa" type="submit">S'inscrire</button>
+							        </span>
+							      </div>
+							      <!-- <p class="help-block small"><a href="#">Consulter nos archives</a> • <a href="#">Accéder à votre compte</a></p> -->
+							      <p></p>
+							      <ul class="list-inline">
+							          <li><input type="checkbox" value="1" name="group[17505][1]" id="mce-group[17505]-17505-0" checked="checked"><label for="mce-group[17505]-17505-0" style="margin-left:5px;"><span></span>Générale</label></li>
+							          <li><input type="checkbox" value="2" name="group[17505][2]" id="mce-group[17505]-17505-1" checked="checked"><label for="mce-group[17505]-17505-1" style="margin-left:5px;"><span></span>Économie</label></li>
+
+							          <li><input type="checkbox" value="4" name="group[17505][4]" id="mce-group[17505]-17505-4" checked="checked"><label for="mce-group[17505]-17505-4" style="margin-left:5px;"><span></span>Futur</label></li>
+
+							          <li><input type="checkbox" value="32" name="group[17505][32]" id="mce-group[17505]-17505-5" checked="checked"><label for="mce-group[17505]-17505-5" style="margin-left:5px;"><span></span>Un jour, une idée</label></li>
+							      </ul>
+							      <p></p>
+							      </div>
+						    </form>
+						</div>
+						<div class="sharebox sharebox-invert">
+							<a href="https://www.facebook.com/sharer.php?u={{ app.url }}&display=popup&ref=plugin&src=share_button"><i class="fa fa-facebook fa-2x"></i></a>
+							<a href="https://twitter.com/intent/tweet?text={{ twitterDescription ~ ' ' ~ app.url ~ ' '|url_encode }}&via={{ brand }}"><i class="fa fa-twitter fa-2x"></i></a>
+							<a href="https://www.linkedin.com/shareArticle?url={{ app.url }}&mini=true&title={{ title|url_encode }}&summary={{ description|url_encode }}&source={{ 'Le Temps'|url_encode }}"><i class="fa fa-linkedin fa-2x"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="credits col-md-12">
+						<div class="spacer-xl"></div>
+						<span class="f-h7 f-gray-medium">Réalisation: César Greppin</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+		{{ block('footer_brand') }}
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/header.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        <!-- tilt dependencies -->
+        <script src="js/tilt.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script> 
+		<script src="js/anime.min.js"></script>
+		 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+
+        <script>
+			(function() {
+				var tiltSettings = [
+				{},
+				{
+					movement: {
+						imgWrapper : {
+							translation : {x: 0, y: 0, z: 0},
+							rotation : {x: -5, y: 5, z: 0},
+							reverseAnimation : {
+								duration : 1200,
+								easing : 'easeOutElastic',
+								elasticity : 600
+							}
+						},
+						lines : {
+							translation : {x: 10, y: 10, z: [0,10]},
+							reverseAnimation : {
+								duration : 1000,
+								easing : 'easeOutExpo',
+								elasticity : 600
+							}
+						},
+						caption : {
+							translation : {x: 20, y: 20, z: 0},
+							rotation : {x: 0, y: 0, z: 0},
+							reverseAnimation : {
+								duration : 1500,
+								easing : 'easeOutElastic',
+								elasticity : 600
+							}
+						},
+						/*
+						overlay : {
+							translation : {x: 10, y: 10, z: [0,50]},
+							reverseAnimation : {
+								duration : 500,
+								easing : 'easeOutExpo'
+							}
+						},
+						*/
+						shine : {
+							translation : {x: 50, y: 50, z: 0},
+							reverseAnimation : {
+								duration : 1200,
+								easing : 'easeOutElastic',
+								elasticity: 600
+							}
+						}
+					}
+				
+				
+				}];
+
+				function init() {
+					var idx = 0;
+					[].slice.call(document.querySelectorAll('a.tilter')).forEach(function(el, pos) { 
+						idx = pos%2 === 0 ? idx+1 : idx;
+						new TiltFx(el, tiltSettings[idx-1]);
+					});
+				}
+
+				// Preload all images.
+				imagesLoaded(document.querySelector('main'), function() {
+					document.body.classList.remove('loading');
+					init();
+				});
+
+				// REMOVE THIS!
+				// For Demo purposes only. Prevent the click event.
+				[].slice.call(document.querySelectorAll('a[href="#"]')).forEach(function(el) {
+					el.addEventListener('click', function(ev) { ev.preventDefault(); });
+				});
+
+				var pater = document.querySelector('.pater'),
+					paterSVG = pater.querySelector('.pater__svg'),
+					pathEl = paterSVG.querySelector('path'),
+					paths = {default: pathEl.getAttribute('d'), active: paterSVG.getAttribute('data-path-hover')};
+
+				pater.addEventListener('mouseenter', function() {
+					anime.remove(pathEl);
+					anime({
+						targets: pathEl,
+						d: paths.active,
+						duration: 400,
+						easing: 'easeOutQuad'
+					});
+				});
+
+				pater.addEventListener('mouseleave', function() {
+					anime.remove(pathEl);
+					anime({
+						targets: pathEl,
+						d: paths.default,
+						duration: 400,
+						easing: 'easeOutExpo'
+					});
+				});
+			})();
+		</script>
+	</body>
+	
+</html>
