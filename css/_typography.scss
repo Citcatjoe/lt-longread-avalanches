@@ -63,7 +63,7 @@ $font2: 'proxima-nova';
         font-size: 18px; 
     }
 } 
-.f-h6 { font-size: 29px; } 
+.f-h6 { font-size: 29px; line-height: 37px;  } 
 .f-h7 { font-size: 16px; } 
 .f-aside { font-size: 16px; line-height: 23px !important; }
 .f-quote { font-size: 30px; line-height: 40px;}
@@ -79,6 +79,7 @@ $font2: 'proxima-nova';
 }
 
 .f-center { text-align: center; }
+.f-right { text-align: right; }
 
 .f-black { color: black; }
 .f-gray-dark { color: #666666 }

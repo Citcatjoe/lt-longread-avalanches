@@ -92,7 +92,8 @@ img {
       font-size: 18px; } }
 
 .f-h6 {
-  font-size: 29px; }
+  font-size: 29px;
+  line-height: 37px; }
 
 .f-h7 {
   font-size: 16px; }
@@ -119,6 +120,9 @@ img {
 
 .f-center {
   text-align: center; }
+
+.f-right {
+  text-align: right; }
 
 .f-black {
   color: black; }
@@ -408,7 +412,7 @@ header {
     position: absolute;
     width: 100%;
     left: 50%;
-    bottom: 3.5rem;
+    top: 10.5rem;
     z-index: 2;
     -webkit-transform: translate(-50%, 0);
     -moz-transform: translate(-50%, 0);
@@ -603,6 +607,10 @@ nav {
 input {
   border-radius: 0 !important; }
 
+.spacer-xxs {
+  width: 100%;
+  height: 3px; }
+
 .spacer-xs {
   width: 100%;
   height: 8px; }
@@ -764,21 +772,18 @@ input {
   @media (max-width: 992px) {
     .encart figure .spacer-lg {
       display: none; } }
-  .encart figure img {
-    border-radius: 50%;
-    width: 70%; }
-    @media (max-width: 992px) {
-      .encart figure img {
-        width: 80px;
-        height: auto;
-        margin-right: 30px;
-        float: left; } }
-    @media (max-width: 500px) {
-      .encart figure img {
-        width: 50%;
-        margin: auto;
-        clear: both;
-        float: none; } }
+  @media (max-width: 992px) {
+    .encart figure img {
+      width: 80px;
+      height: auto;
+      margin-right: 30px;
+      float: left; } }
+  @media (max-width: 500px) {
+    .encart figure img {
+      width: 50%;
+      margin: auto;
+      clear: both;
+      float: none; } }
   .encart figure figcaption {
     height: 105px;
     padding-top: 15px; }
@@ -849,6 +854,11 @@ input[type="checkbox"]:checked + label span {
   background: url(../img/checkbox-checked.svg);
   background-position: center center;
   background-size: cover; }
+
+iframe {
+  width: 100% !important;
+  height: 380px;
+  float: right; }
 
 /*Buttons, dropdown...*/
 @media (max-width: 1200px) {

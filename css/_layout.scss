@@ -101,7 +101,8 @@ header
 		position: absolute;
 		width: 100%;
 		left: 50%;
-		bottom: 3.5rem;
+		top: 10.5rem;
+		// bottom: 3.5rem;
 		z-index: 2;
 		@include transform(translate(-50%, 0));
 
