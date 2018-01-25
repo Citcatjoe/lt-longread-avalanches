@@ -35,6 +35,13 @@ jQuery(document).ready(function($)
 		.set($headerTitle, { clearProps: "all" }); ;
 
 
+	tlBgDezoom =  new TimelineMax({ paused: false });
+
+	tlBgDezoom 
+		.set($headerBgImg, { transformOrigin: 'center center', scale: 1.05 })
+		.to($headerBgImg, 10, {scale: 1, ease: Power4.easeOut, y: 0}, '-=1.5');
+
+
 
 
 });

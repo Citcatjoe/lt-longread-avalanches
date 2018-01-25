@@ -1497,7 +1497,7 @@
 		"oAP": "\/header-home-article.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article-card-fioul-lourd.jpg": {
@@ -1707,7 +1707,7 @@
 		"oAP": "\/img\/article\/header.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/inter-a.jpg": {
@@ -2147,11 +2147,11 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/indexHome.php": {
+	"\/indexLT.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/indexHome.php",
+		"oAP": "\/indexLT.php",
 		"oF": 0
 		},
 	"\/js\/animation.gsap.js": {
@@ -2377,7 +2377,7 @@
 		"oAP": "\/social.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/templates\/_blocks.html (1).twig": {

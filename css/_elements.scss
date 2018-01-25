@@ -591,11 +591,17 @@ input[type="checkbox"]:checked + label span {
     background-size: cover;
 }
 
-iframe 
+iframe.custom
 {
 	width: 100% !important;
 	height: 380px;
 	float: right
+}
+
+.video iframe
+{
+	width: 100%;
+	height: auto;
 }
 
 
