@@ -11,26 +11,35 @@ jQuery(document).ready(function($)
 	//var dotCounter = $('p.f-inter').length;
 
 
-init();
-function init(){
-	$('p.f-inter').each(function( index ) {
-	  	$('nav ul').append('<li></li>');
+// init();
+// function init(){
+// 	$('p.f-inter').each(function( index ) {
+// 	  	$('nav ul').append('<li></li>');
 
 
-	});
+// 	});
 
-	$('nav ul li').on('click', function(e) {
-		$('nav ul li').removeClass('is-active');
-		$(this).addClass('is-active');
-		//alert($(this).index());
-		// SCROLL TO AN ELEMENT FUNCTION
-	    $('html, body').animate({
-	       scrollTop:$('p.f-inter:eq(' + $(this).index() + ')').offset().top
-	    }, 1);
-	});
+// 	$('nav ul li').on('click', function(e) {
+// 		$('nav ul li').removeClass('is-active');
+// 		$(this).addClass('is-active');
+// 		//alert($(this).index());
+// 		// SCROLL TO AN ELEMENT FUNCTION
+// 	    $('html, body').animate({
+// 	       scrollTop:$('p.f-inter:eq(' + $(this).index() + ')').offset().top
+// 	    }, 1);
+// 	});
+
+	// ZOOM SUR LES IMAGES DISPOSANT DE LA CLASSE ZOOM
+	if ($(window).width() > 1200) {
+		$(".zoom").click(function () {
+			zoom.to({
+				element: $(this)[0]
+			});
+		});
+	} 	
 
 
-}
+// }
 
 $('.slider').owlCarousel({
     margin:10,

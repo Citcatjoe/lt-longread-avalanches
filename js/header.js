@@ -18,28 +18,42 @@ jQuery(document).ready(function($)
 
 
 
-
-
 	var $overlay = $('.overlay'),
 		$logoLt = $('.overlay .logo-brand'),
 		$spinner = $('.spinner'),
-		tlIntroduction;
+		tlOverlay;
+
+	tlOverlay = new TimelineMax({ paused: false });
+
+	tlOverlay
+		
+		.to([$spinner, $logoLt], 0.7, { autoAlpha: 0, ease: Power4.easeOut }, '+=1.5')
+		.to($overlay, 1, { autoAlpha: 0, ease: Linear.easeNone }, '-=0.0');
+		
+
+	// THIS IS EXECUTED DEPENDING ON WINDOW WIDTH
+	if($(window).width() > 1200)
+	{
+		tlBgVid = new TimelineMax({ paused: false });
+
+		tlBgVid
+			.set($headerTitle, { autoAlpha: 0, yPercent: '10' })
+			.to($headerTitle, 2, { autoAlpha: 1, yPercent: '0' }, '+=5.0')
+			.set($headerTitle, { clearProps: "all" });
+	}
+	else
+	{
+		tlBgImg = new TimelineMax({ paused: false });
+
+		tlBgImg
+			.set($headerBgImg, { transformOrigin: 'center center', scale: 1.05 })
+			.to($headerBgImg, 10, { scale: 1, ease: Power4.easeOut, y: 0 }, '+=2.0');
+	}
+
 	
-	tlIntroduction =  new TimelineMax({ paused: false });
-
-	tlIntroduction
-		.set($headerTitle, { autoAlpha: 0, yPercent: '10' })
-		.to([$spinner, $logoLt], 0.7, {autoAlpha: 0, ease: Power4.easeOut}, '+=1.5')
-		.to($overlay, 1, {autoAlpha: 0, ease:Linear.easeNone}, '-=0.0')
-		.to($headerTitle, 2, { autoAlpha: 1, yPercent: '0' }, '+=2.0')
-		.set($headerTitle, { clearProps: "all" }); ;
 
 
-	tlBgDezoom =  new TimelineMax({ paused: false });
-
-	tlBgDezoom 
-		.set($headerBgImg, { transformOrigin: 'center center', scale: 1.05 })
-		.to($headerBgImg, 10, {scale: 1, ease: Power4.easeOut, y: 0}, '-=1.5');
+	
 
 
 

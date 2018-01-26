@@ -87,7 +87,16 @@ $font2: 'proxima-nova';
 
 .f-aa { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 .f-nomargin { margin-bottom: 0; }
-.f-inter { padding-top: 30px; }
+.f-inter 
+{ 
+    padding-top: 30px; 
+
+    @include breakpoint(lg) { 
+        padding-top: 10px;
+        margin-bottom: 10px;
+
+    }
+}
 
 h1
 {
@@ -152,18 +161,9 @@ p
         //font-weight: 500;
     }
 
-    &:first-of-type:first-letter 
-    {
-        font-family: $font1; 
-        float:left;
-        font-size: 55px;
-        padding: 0.30em 0.10em 0 0;
-        font-weight: 600;
+    
 
-        @include breakpoint(xs) { 
-            font-size: 55px;
-        }
-    }
+   
 
     a 
     {
@@ -232,4 +232,23 @@ blockquote
         vertical-align: -5px;
         color: red;
     }
+}
+
+
+p.lettrine 
+{
+  
+         &:first-of-type:first-letter 
+        {
+            font-family: $font1; 
+            float:left;
+            font-size: 55px;
+            padding: 0.30em 0.10em 0 0;
+            font-weight: 600;
+
+            @include breakpoint(xs) { 
+                font-size: 55px;
+            }
+        }
+    
 }

@@ -346,8 +346,8 @@ input
 	margin-top: 45px;
 	margin-bottom: 29px;
 	padding: 30px 0 30px 0;
-	border-bottom: 1px solid #e1e1e1;
-	border-top: 1px solid #e1e1e1;
+	// border-bottom: 1px solid #e1e1e1;
+	// border-top: 1px solid #e1e1e1;
 
 	.encart-3-columns
 	{
@@ -356,7 +356,15 @@ input
 	    column-count: 3;
 	    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
 	    -moz-column-gap: 40px; /* Firefox */
-	    column-gap: 40px;
+		column-gap: 40px;
+		
+		@include breakpoint(xs) { 
+			-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    	-moz-column-count:1; /* Firefox */
+			column-count: 1;
+			padding-left: 0;
+		    padding-right: 0;
+		}
 	}
 
 	.encart-2-columns
@@ -439,14 +447,14 @@ input
 			// width: 70%;
 
 			@include breakpoint(md) { 
-		         width: 80px;
+		        //  width: 80px;
 		         height: auto;
 		         margin-right: 30px;
 		         float: left;
 		    }
 
 		    @include breakpoint(xs) { 
-	      		width: 50%;
+	      		// width: 50%;
 	      		margin: auto;
 			    clear: both;
 			    float: none;
@@ -470,10 +478,10 @@ input
 	//padding: 15px;
 }
 
-// .slider
-// {
-// 	margin-right: -15px;
-// }
+.slider
+{
+	margin: 0 !important;
+}
 
 .article-card
 {
@@ -594,8 +602,15 @@ input[type="checkbox"]:checked + label span {
 iframe.custom
 {
 	width: 100% !important;
-	height: 380px;
-	float: right
+	height: 400px;
+	float: right;
+
+	@include breakpoint(xl) { 
+        height: 300px;
+         
+	}
+	
+	
 }
 
 .video iframe
@@ -604,6 +619,20 @@ iframe.custom
 	height: auto;
 }
 
+.zoom 
+{
+	cursor: pointer;
+}
+
+.no-padding
+{
+	padding: 0;
+}
+
+.no-margin
+{
+	margin: 0;
+}
 
 
 

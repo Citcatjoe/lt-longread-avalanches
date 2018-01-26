@@ -1507,7 +1507,7 @@
 		"oAP": "\/img\/article-card-fioul-lourd.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article-card-horlogerie-japonaise.jpg": {
@@ -1517,7 +1517,7 @@
 		"oAP": "\/img\/article-card-horlogerie-japonaise.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article-card-parc-adula.jpg": {
@@ -1537,7 +1537,7 @@
 		"oAP": "\/img\/article-card-shenzen.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article-card-tcherno-30-ans.jpg": {
@@ -1547,7 +1547,7 @@
 		"oAP": "\/img\/article-card-tcherno-30-ans.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/accueil-placeholder.jpg": {
@@ -1557,7 +1557,7 @@
 		"oAP": "\/img\/article\/accueil-placeholder.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/accueil-placeholderold.jpg": {
@@ -1567,7 +1567,7 @@
 		"oAP": "\/img\/article\/accueil-placeholderold.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/avalanche2.jpg": {
@@ -1577,7 +1577,7 @@
 		"oAP": "\/img\/article\/avalanche2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/bd1.jpg": {
@@ -1670,6 +1670,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/article\/cachou.jpg": {
+		"ft": 16384,
+		"iS": 183404,
+		"oA": 0,
+		"oAP": "\/img\/article\/cachou.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/img\/article\/champ-square.jpg": {
 		"ft": 16384,
 		"iS": 180333,
@@ -1677,7 +1687,7 @@
 		"oAP": "\/img\/article\/champ-square.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/champ.jpg": {
@@ -1687,7 +1697,7 @@
 		"oAP": "\/img\/article\/champ.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/end.jpg": {
@@ -1697,7 +1707,18 @@
 		"oAP": "\/img\/article\/end.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/article\/facteurs-risques.png": {
+		"ft": 32768,
+		"iS": 248950,
+		"oA": 0,
+		"oAP": "\/img\/article\/facteurs-risques.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/article\/header.JPG": {
@@ -1710,6 +1731,61 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/article\/infog1.png": {
+		"ft": 32768,
+		"iS": 322266,
+		"oA": 0,
+		"oAP": "\/img\/article\/infog1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/article\/infog2.png": {
+		"ft": 32768,
+		"iS": 440608,
+		"oA": 0,
+		"oAP": "\/img\/article\/infog2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/article\/infog3.png": {
+		"ft": 32768,
+		"iS": 372172,
+		"oA": 0,
+		"oAP": "\/img\/article\/infog3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/article\/infog4.png": {
+		"ft": 32768,
+		"iS": 382069,
+		"oA": 0,
+		"oAP": "\/img\/article\/infog4.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/article\/infog5.png": {
+		"ft": 32768,
+		"iS": 327094,
+		"oA": 0,
+		"oAP": "\/img\/article\/infog5.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/article\/inter-a.jpg": {
 		"ft": 16384,
 		"iS": 109234,
@@ -1717,7 +1793,7 @@
 		"oAP": "\/img\/article\/inter-a.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/inter-b.jpg": {
@@ -1727,7 +1803,7 @@
 		"oAP": "\/img\/article\/inter-b.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/inter-d.jpg": {
@@ -1737,7 +1813,7 @@
 		"oAP": "\/img\/article\/inter-d.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/inter-z.jpg": {
@@ -1756,8 +1832,8 @@
 		"oA": 0,
 		"oAP": "\/img\/article\/interview1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1768,7 +1844,7 @@
 		"oAP": "\/img\/article\/interview2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/lugon1.jpg": {
@@ -1778,7 +1854,7 @@
 		"oAP": "\/img\/article\/lugon1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/lugon2.jpg": {
@@ -1788,7 +1864,7 @@
 		"oAP": "\/img\/article\/lugon2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/lugon3.jpg": {
@@ -1798,7 +1874,7 @@
 		"oAP": "\/img\/article\/lugon3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/lugon4.jpg": {
@@ -1808,7 +1884,7 @@
 		"oAP": "\/img\/article\/lugon4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/lugon5.jpg": {
@@ -1818,7 +1894,7 @@
 		"oAP": "\/img\/article\/lugon5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/map.jpg": {
@@ -1828,7 +1904,7 @@
 		"oAP": "\/img\/article\/map.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/slider1.jpg": {
@@ -1838,7 +1914,7 @@
 		"oAP": "\/img\/article\/slider1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/slider10.jpg": {
@@ -1848,7 +1924,7 @@
 		"oAP": "\/img\/article\/slider10.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/slider11.jpg": {
@@ -1858,7 +1934,7 @@
 		"oAP": "\/img\/article\/slider11.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/slider12.jpg": {
@@ -1868,7 +1944,7 @@
 		"oAP": "\/img\/article\/slider12.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/slider13.jpg": {
@@ -1878,7 +1954,7 @@
 		"oAP": "\/img\/article\/slider13.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/slider14.jpg": {
@@ -1888,7 +1964,7 @@
 		"oAP": "\/img\/article\/slider14.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/slider2.jpg": {
@@ -1898,7 +1974,7 @@
 		"oAP": "\/img\/article\/slider2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/slider3.jpg": {
@@ -1908,7 +1984,7 @@
 		"oAP": "\/img\/article\/slider3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/slider4.jpg": {
@@ -1918,7 +1994,7 @@
 		"oAP": "\/img\/article\/slider4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/slider5.jpg": {
@@ -1928,7 +2004,7 @@
 		"oAP": "\/img\/article\/slider5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/step1.jpg": {
@@ -1938,7 +2014,7 @@
 		"oAP": "\/img\/article\/step1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/step2.jpg": {
@@ -1948,7 +2024,7 @@
 		"oAP": "\/img\/article\/step2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/step3.jpg": {
@@ -1958,7 +2034,7 @@
 		"oAP": "\/img\/article\/step3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/step4.jpg": {
@@ -1968,7 +2044,7 @@
 		"oAP": "\/img\/article\/step4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/step5.jpg": {
@@ -1978,7 +2054,7 @@
 		"oAP": "\/img\/article\/step5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/step6.jpg": {
@@ -1988,7 +2064,7 @@
 		"oAP": "\/img\/article\/step6.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/step7.jpg": {
@@ -1998,7 +2074,7 @@
 		"oAP": "\/img\/article\/step7.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/step8.jpg": {
@@ -2008,7 +2084,7 @@
 		"oAP": "\/img\/article\/step8.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/article\/tooltip.jpg": {
@@ -2018,7 +2094,7 @@
 		"oAP": "\/img\/article\/tooltip.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/checkbox-checked.svg": {
@@ -2108,8 +2184,8 @@
 		"oA": 0,
 		"oAP": "\/img\/partner-logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2130,7 +2206,7 @@
 		"oAP": "\/img\/tilt-fioul-lourd.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/index.html.twig": {
@@ -2147,11 +2223,11 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/indexLT.php": {
+	"\/indexH.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/indexLT.php",
+		"oAP": "\/indexH.php",
 		"oF": 0
 		},
 	"\/js\/animation.gsap.js": {
@@ -2344,6 +2420,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/zoom.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/zoom-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/json\/data.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -2351,6 +2437,13 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0
 		},
 	"\/README.md": {
 		"cB": 0,
